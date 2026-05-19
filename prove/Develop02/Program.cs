@@ -110,7 +110,7 @@ public class Journal
         }
         try
         {
-            Console.WriteLine("/nWhat would you like to name the file? (.txt) ");
+            Console.WriteLine("\nWhat would you like to name the file? (.txt) ");
             string lrb_filename = Console.ReadLine();
 
             using (StreamWriter outputFile = new StreamWriter(lrb_filename))
