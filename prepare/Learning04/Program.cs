@@ -13,7 +13,7 @@ class Program
     MathAssignment math = new MathAssignment("Samuel Jackson", "Mathematics", "7.3", "12-25");
     Console.WriteLine(math.GetSummary());
     Console.WriteLine(math.GetHomeWorkList());
-    
+
     WritingAssignment writing = new WritingAssignment("Samuel Jackson", "English", "Civil War Essay");
     Console.WriteLine(writing.GetSummary());
     Console.WriteLine(writing.GetHomeWorkList());
@@ -21,8 +21,8 @@ class Program
 }
 public class Assignment
 {
-    protected string lrb_studentName;
-    protected string lrb_topic;
+    private string lrb_studentName;
+    private string lrb_topic;
     public Assignment(string name, string topic)
     {
         lrb_studentName = name;
