@@ -268,8 +268,6 @@ class Activity
 
     protected Animation lrb_loading = new Animation(); // Made protected so derived classes can use it if needed
 
-    public Activity() { }
-
     public void run(int actnum)
     {
         int time = intro(actnum);
